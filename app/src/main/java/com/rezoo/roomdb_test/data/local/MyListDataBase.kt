@@ -8,5 +8,5 @@ import androidx.room.RoomDatabase
 )
 abstract class MyListDataBase:RoomDatabase() {
     abstract fun myListDao() :MyListDao
-    companion object
+
 }
